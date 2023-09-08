@@ -12,9 +12,15 @@ public class desafio3 {
 
         List<Integer> numeros2 = new ArrayList<>(numeros);
 
+<<<<<<< HEAD
         
         numeros2.removeIf(n -> n%2 != 0);
         
+=======
+        for (Integer integer : numeros) {
+            numeros2.removeIf(n -> n%2 != 0);
+        }
+>>>>>>> 4b98e655f3060699ac10412e0205b3a1878ab0c7
         System.out.println(numeros2);
     }
 }
